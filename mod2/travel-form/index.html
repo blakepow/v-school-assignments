@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+</head>
+<body>
+    <link rel = 'stylesheet' href="style.css">
+    <h1>Travel Form</h1>
+    <form name = 'myForm'>
+        <div>
+            <input type = 'text' name = 'firstName' placeholder="First Name">
+        </div>
+        
+        <div>
+            <input type='text' name='lastName' placeholder="Last Name">
+        </div>
+        <br>
+        <div>
+            <input type='text' name='age' placeholder="Age">
+        </div>
+        <br>
+        <div>
+            <input type='radio' name='gender' value='Male'>Male
+            <input type='radio' name='gender' value="Female">Female
+        </div>
+        <br>
+        <div>
+            <select name="location">
+                <option value="Kentucky">Kentucky</option>
+                <option value="Sweden">Sweden</option>
+                <option value="India">India</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name='food' value="Vegetarian">Vegetarian
+            <input type="checkbox" name='food' value="Lactose-Free">Lactose-Free
+            <input type="checkbox" name='food' value="Kosher">Kosher
+        </div>
+        <br>
+
+        <button>Submit</button>
+
+    </form>
+
+    <script src='index.js'></script>
+</body>
+</html>

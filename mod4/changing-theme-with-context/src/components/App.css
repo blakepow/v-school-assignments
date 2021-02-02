@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.dark-theme{
+    background-color: #333333;
+    color: whitesmoke;
+    height: 114.3ch;
+}
+
+.light-theme{
+    background-color: whitesmoke;
+    color: #333333;
+    height: 114.3ch;
+}
+
+.light-nav{
+    background-color: darkgray;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.dark-nav{
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
+
+.light-body{
+    background-color: white;
+    text-align: center;
+    height: 100%;
+}
+
+.dark-body{
+    background-color: black;
+    text-align: center;
+    height: 100%;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    padding: 10%
+}
+
+.dark-button{
+    background-color: whitesmoke;
+    width: 100px;
+    height: 50px;
+}
+
+.light-button{
+    background-color: black;
+    color: whitesmoke;
+    width: 100px;
+    height: 50px;
+}
+
+.dark-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
+
+.light-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+}

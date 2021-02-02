@@ -1,0 +1,23 @@
+body {
+    background-color: Black;
+}
+.Blue {
+    position: fixed;
+    background-color: blue;
+    height: 100%;
+    width: 33%;
+}
+.White {
+    position: fixed;
+    background-color: White;
+    left: 33%;
+    height: 100%;
+    width: 33%;
+}
+.Red {
+    position: fixed;
+    background-color: Red;
+    left: 66%;
+    height: 100%;
+    width: 33%;
+}

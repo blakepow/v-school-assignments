@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.coffee {
+    top: 425px;
+    left: 50px;
+    width: 425px;
+    border: 2px solid red;
+}
+.decaf {
+    height: 400px;
+    width: 555px;
+    border: 2px solid blue;
+}
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(55,44,22,.4);
+}
+.about {
+    position: fixed;
+    left: 50%;    
+}
+.menu {
+    position: fixed;
+    left: 95%;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: Whitesmoke;
+}
+.Black {
+    position: fixed;
+    background-color: Black;
+    height: 33%;
+    width: 100%;
+}
+.Red {
+    position: fixed;
+    background-color: Red;
+    top: 33%;
+    height: 33%;
+    width: 100%;
+}
+.Yellow {
+    position: fixed;
+    background-color: Yellow;
+    top: 66%;
+    height: 33%;
+    width: 100%;
+}

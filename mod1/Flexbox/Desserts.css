@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    color: maroon;
+    top: 10%;
+}
+h2 {
+    text-align: center;
+}
+body {
+    background-color: gray;
+}
+.nav-bar {
+    position: sticky;
+    width: 99%;
+    background-color: rgb(55,44,22,.4);
+    top: 0;
+}
+.Entrees {
+    position: sticky;
+    left: 50%;
+    top: 0;
+}
+.Drinks {
+    position: sticky;
+    left: 95%;
+    top: 0;
+}
+
+h3 {
+    text-align: center;
+}
+.Pudding {
+    width: 33%;
+}
+.Cake {
+    width: 33%;
+}
+.Doughnuts {
+    width: 33%;
+}
+
+@media only screen and (max-width: 768px){
+    .Pudding{
+        width: 100%;
+    }
+    .Cake{
+        width: 100%;
+    }
+    .Doughnuts{
+        width: 100%;
+    }
+}

@@ -1,0 +1,251 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: #325050;
+    background: #fff;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 50%;
+}
+p{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#grid-display{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(9, 350px);
+}
+#grid-display > div{
+    text-align: center;
+}
+.grid-item{
+    text-align: center;
+}
+
+#title{
+    background-image: url(http://www.csszengarden.com/214/huntington.jpg);
+    grid-area: 1/1/2/5;
+    padding-top: 140px;
+    color: #809b7e;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: large;
+}
+#main-title{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#view-designs{
+    background-image: url(http://www.csszengarden.com/214/huntington.jpg);
+    padding-top: 145px;
+    grid-area: 1/5/2/7;
+    font-size: 0%;
+}
+#leftarrowbtn{
+    height: 60px;
+    width: 10%;
+    opacity: 60%;
+}
+#designbtn{
+    width: 70%;
+    height: 60px;
+    opacity: 60%;
+}
+#rightarrowbtn{
+    height: 60px;
+    width: 10%;
+    opacity: 60%;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+#summary{
+    background-color: whitesmoke;
+    grid-area: 2/1/5/5;
+}
+
+#examples{
+    background-color: lightgray;
+    grid-area: 2/5/5/7;
+}
+
+#participation{
+    grid-area: 5/1/7/5;
+    background-attachment: scroll, scroll, fixed;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+}
+
+#resources{
+    grid-area: 5/5/7/7;
+    background-attachment: scroll, scroll, fixed;
+    background-color: rgba(138, 188, 159, 0.795);
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+}
+
+#requirements{
+    background-color: whitesmoke;
+    grid-area: 7/1/9/5;
+}
+
+#blank{
+    background-color: lightgray;
+    grid-area: 7/5/9/7;
+}
+
+#author{
+    grid-area: 9/1/10/7;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/koi.jpg);
+    background-position: 0 0, -5px -25px, 0 0, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+}
+
+#footer{
+    position: relative;
+    bottom: -66%;
+    height: 33%;
+    clear: both;
+    padding: 3em 10%;
+    color: #fff;
+    background: #134347;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1132px) {
+    #grid-display{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(12, 1fr);
+    }
+    #grid-display > div{
+        text-align: center;
+    }
+    .grid-item{
+        text-align: center;
+    }
+    
+    #view-designs{
+        padding-top: 40px;
+        background-image: url(http://www.csszengarden.com/214/huntington.jpg);
+        grid-area: 1/1/2/2;
+        color: #809b7e;
+        font-family: 'Julius Sans One', sans-serif;
+        text-transform: uppercase;
+        color: white;
+        font-size: large;
+    }
+    #leftarrowbtn{
+        height: 60px;
+        width: 10%;
+        opacity: 60%;
+        position: relative;
+        bottom: -26%;
+        height: 33%;
+    }
+    #designbtn{
+        width: 70%;
+        height: 60px;
+        opacity: 60%;
+        position: relative;
+        bottom: -26%;
+        height: 33%;
+    }
+    #rightarrowbtn{
+        height: 60px;
+        width: 10%;
+        opacity: 60%;
+        position: relative;
+        bottom: -26%;
+        height: 33%;
+    }
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 5px;
+    }
+    .right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    .left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+
+    #main-title{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    #summary{
+        background-color: whitesmoke;
+        grid-area: 2/1/5/2;
+    }
+    #examples{
+        background-color: whitesmoke;
+        grid-area: 10/1/12/2;
+    }
+    #participation{
+        background-attachment: scroll, scroll, fixed;
+        background-color: rgba(138,188,159,0.5);
+        background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+        background-repeat: repeat, repeat, no-repeat;
+        background-size: auto, auto, cover;
+        grid-area: 5/1/7/2;
+    }
+    #resources{
+        background-attachment: scroll, scroll, fixed;
+        background-color: rgba(138,188,159,0.5);
+        background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+        background-repeat: repeat, repeat, no-repeat;
+        background-size: auto, auto, cover;
+        grid-area: 12/1/13/2;
+    }
+    #requirements{
+        background-color: whitesmoke;
+        grid-area: 7/1/9/2;
+    }
+    #blank{
+        background-color: lightgray;
+        grid-area: 9/1/9/2;
+    }
+    #author{
+        background-color: greenyellow;
+        grid-area: 9/1/10/2;
+    }
+    #footer{
+        position: relative;
+        bottom: -66%;
+        height: 33%;
+        clear: both;
+        padding: 3em 10%;
+        color: #fff;
+        background: #134347;
+        text-align: center;
+    }
+  }

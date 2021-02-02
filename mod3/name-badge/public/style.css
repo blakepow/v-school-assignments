@@ -1,0 +1,67 @@
+body{
+    background-color: cadetblue;
+}
+
+.badge{
+    background-color: darkslategrey;
+    border: black 4px solid;
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+input{
+    width: 360px;
+    margin: 15px;
+}
+
+
+textarea{
+    width: 760px;
+    height: 150px;
+    margin: 30px 0 30px 0;
+}
+
+.outBadge{
+    background-color: darkslategrey;
+    border: black 4px solid;
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.outputs{
+    margin: 15px;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.information{
+    width: 760px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: solid 1px black;
+    background-color: white;
+    margin-top: 30px;
+}
+
+
+hr{
+    height: 1px;
+}
+

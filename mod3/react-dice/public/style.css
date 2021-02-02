@@ -1,0 +1,30 @@
+body{
+    background-color: gray;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.number{
+    padding-top: 15%;
+    font-size: 100px;
+    border: solid black 2px;
+    width: 100%;
+    text-align: center;
+}
+
+.random{
+    font-size: 40px;
+    background-color: maroon;
+    border: solid black 3px;
+    transition-duration: 1s;
+}
+
+.random:hover{
+    background-color: blue;
+}

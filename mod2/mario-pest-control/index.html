@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Pest Control</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    
+<h1>Mario's Pest Control</h1>
+<img src="https://i.ytimg.com/vi/w2oMFakPGkE/maxresdefault.jpg" id="baddies">
+
+<div class="enemies">
+    <div>
+        Goomba
+        <img src="https://www.mariowiki.com/images/9/9c/Goomba_-_MarioPartyStarRush.png" id="goomba">
+        5 Coins
+    </div>
+
+    <div>
+        Bob-omb
+        <img src="https://www.mariowiki.com/images/9/9e/Bobomb_-_MarioPartyStarRush.png" id="bob-omb">
+        7 Coins
+    </div>
+    
+    <div>
+        Hammer-Bro
+        <img src="https://www.mariowiki.com/images/thumb/e/e3/NSMBU_Hammer_Bro_Artwork.png/1200px-NSMBU_Hammer_Bro_Artwork.png" id="hammer-bro">
+        11 Coins
+    </div>
+</div>
+
+    <form class="enemies" name="myForm">
+        <input type="number" class="cost" id="gCost" name='Goomba' placeholder="Number of Goombas Exterminated"/>
+        
+        <input type="number" class="cost" id="bCost" name="Bomb" placeholder="Number of Bob-ombs Exterminated"/>
+
+        <input type="number" class="cost" id="hCost" name="Hammer" placeholder="Number of Hammer-bros Exterminated"/>
+        
+        
+        <button id="calc">Submit</button>
+        
+        
+    </form>
+
+    <div id="footer">
+        Mario's Personal Email: mario@waaaaaa.com
+        <br>
+        <a href="http://127.0.0.1:5500/mario-pest-control/index.html?">Mario's Pest Control</a>
+        <br>
+        Address: 4453 Castle Dr, Mushroom Kingdom
+    </div>
+
+    <div id='total'>
+
+    </div>
+
+
+
+<script src='index.js'></script>
+</body>
+</html> 

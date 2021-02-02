@@ -1,0 +1,66 @@
+h1{
+    font-size: 400%;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(68, 68, 68, 0.46);
+}
+
+#baddies{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.enemies{
+    margin: 5% 0 0 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    height: 200px;
+}
+
+#goomba{
+    height: 200px;
+}
+
+#bob-omb{
+    height: 200px;
+}
+
+#hammer-bro{
+    height: 200px;
+}
+
+#gCost{
+    width:53%;
+}
+
+#bCost{
+    width:62%;
+}
+
+#hCost{
+    width:68%;
+}
+
+.cost{
+    background-color: blueviolet;
+}
+
+
+#calc{
+    max-width: 60px;
+    margin-bottom: 10%;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}

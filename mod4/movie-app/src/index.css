@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  text-align: center;
+}
+
+body{
+  background-color: cadetblue;
+}
+
+.search-wrap{
+  
+}
+
+.search{
+  display: block;
+  width: 100%;
+
+}

@@ -1,0 +1,62 @@
+{
+    "appetizers": [
+        {
+            "name": "Nachos",
+            "ingredients": ["Chips", "Cheese", "Chicken"],
+            "description": "Deliciously drizzled chips"
+        },
+        {
+            "name": "Bread",
+            "ingredients":["Wheat", "Grain", "Love"],
+            "description": "Thuper Thick Thlithes... Yum"
+        }
+    ],
+    "coldSandwhiches": [
+        {
+            "name": "The Mississippi Yeller",
+            "ingredients":["Fresh Ham"],
+            "description":"Freshly sliced ham between two Thuper Thick Thlithes of bread"
+        },
+        {
+            "name": "The Ice Sammy",
+            "ingredients":["Ice", "Dollop of Mustard"],
+            "description":"Ice from the freezer spread between two Thuper Thick Thlithes o' bread, with mustard"
+        }
+    ],
+    "hotSandwiches": [
+        {
+            "name": "The Blazer",
+            "ingredients":["Jalepenos", "Habeneros", "Tabasco"],
+            "description": "Bread, and a whole lot of hot"
+        },
+        {
+            "name": "BBQ Brisket",
+            "ingredients":["White Bread", "Smoked Briket", "Melted Pepperjack Cheeze", "Homemade BBQ Sauce"],
+            "description": "Best Thing You'll Ever Taste"
+        }
+    ],
+    "dessert":[
+        {
+            "name": "Pie",
+            "ingredients":["Syrup"],
+            "description": "It's a Pie Full of Maple Syrup"
+        },
+        {
+            "name": "Root Beer Float",
+            "ingredients":["Root Beer", "Science"],
+            "description": "We Don't Care For Ice Cream, So We Give You Floating Root Beer"
+        }
+    ],
+    "drinks":[
+        {
+            "name": "Root Beer",
+            "ingredients":["Root Beer"],
+            "description": "Much Like Our Root Beer Float, But No Floating"
+        },
+        {
+            "name": "Water",
+            "ingredients":["Water"],
+            "description": "Water"
+        }
+    ]
+}
